@@ -6,4 +6,4 @@ const userColor = prompt("Qual è il tuo colore preferito?");
 const h1password = document.getElementById("psw");
 
 
-h1password.innerHTML = userFirstName + userSurname + userColor
+h1password.innerHTML = userFirstName + userSurname + userColor + 21
