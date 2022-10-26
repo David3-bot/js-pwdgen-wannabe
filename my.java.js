@@ -3,7 +3,7 @@ const userSurname = prompt("Inserisci il tuo cognome");
 const userColor = prompt("Qual è il tuo colore preferito?");
 
 
-const h2NomeUtente = document.getElementById("psw");
+const h1NomeUtente = document.getElementById("psw");
 
 
-h2NomeUtente.innerHTML = userFirstName + userSurname + userColor
+h1NomeUtente.innerHTML = userFirstName + userSurname + userColor
